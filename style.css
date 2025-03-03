@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --header-color: #7D7D7D;
+    --main-color: #626262;
+}
+
+.flex {
+    display: flex;
+}
+
+.container {
+    width: 906px;
+    /* height: 19px; */
+    margin: 0 auto;
+    padding: 0 15px;
+    /* border: solid 2px; */
+}
+
+ul {
+    list-style: none;
+    ;
+}
+
+a {
+    text-decoration: none;
+}
+
+.menu {
+    gap: 100px;
+    justify-content: center;
+}
+
+.menu a {
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--header-color)
+}
+
+.menu>li:first-child>a {
+    color: #03A9F4;
+}
+
+.header {
+    margin-top: 71px;
+    /* margin-left: 165px; */
+    margin-bottom: 115px;
+}
+
+.el1{
+    font-family: "Ubuntu", serif;
+    color: #111111;
+    height: 50px;
+   margin-top: 60px;
+   font-size: 14px;
+   font-weight: 300px;
+}
+.el3{
+    font-family: "Playfair Display", serif;
+    color: #626262;
+    margin-bottom: 65px;
+}
+.el2{
+    font-family: "Playfair Display", serif;
+    color: #626262;
+}
+.button{
+    width: 165px;
+    height: 60px;
+    margin-left: 855px;
+    border-radius: 1px;
+    color: #626262;
+    background-color: rgb(192, 192, 190);
+    border-radius: 25px;
+   margin-bottom: 25px;
+   border:   2px solid rgb(2, 2, 2);
+}
+.button:hover{
+    background-color: rgb(116, 116, 116);
+    animation:  linear;
+}
+body{
+    background-color: rgb(52, 53, 52);
+}
